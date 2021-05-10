@@ -1,0 +1,187 @@
+/* Home Testimonial block start */
+
+#psttestimonialcmsblock {
+	border: none;
+	margin-bottom: 90px;
+	margin-top: 50px;
+	clear: both;
+	padding: 100px 0;
+	background-attachment: fixed;
+}
+#psttestimonialcmsblock  .testimonial-wrapper {
+    width: 640px;
+    float: left;
+}
+ul#testimonial-carousel {
+    margin: 0;
+    overflow: visible;
+}
+#psttestimonialcmsblock li.item {
+	background: #ffffff;
+	padding: 55px 30px 45px;
+	min-height: 315px;
+}
+#psttestimonialcmsblock .psttestimonial-title {
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+    text-transform: uppercase;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0 30px;
+}
+
+#left-column #psttestimonialcmsblock .block_content,#right-column #psttestimonialcmsblock .block_content{width:100%;float:left;}
+#psttestimonialcmsblock .name {
+    line-height: 0;
+}
+#psttestimonialcmsblock .name a {
+	font-weight: 400;
+	text-transform: capitalize;
+	font-size: 14px;
+	color: #222222;
+	line-height: 22px;
+}
+   
+#psttestimonialcmsblock .name a:hover{
+	color:#808080;
+}
+#psttestimonialcmsblock .designation a {
+	font-size: 14px;
+	color: #808080;
+	font-weight: 400;
+	text-transform: capitalize;
+} 
+#psttestimonialcmsblock .designation a:hover {
+	color:#000000;
+}
+#psttestimonialcmsblock .testmonial-image{     
+    border: none;
+	width:auto;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+	
+    transition-duration: 300ms;
+    -webkit-transition-duration: 300ms;
+    -moz-transition-duration: 300ms;
+    -ms-transition-duration: 300ms;
+    -o-transition-duration: 300ms;
+}
+
+#psttestimonialcmsblock .testmonial-image img{
+    height: 100px;
+    width: 100px;
+    max-width: 100%;
+}
+
+#psttestimonialcmsblock .item.cms_face {
+	position: relative;
+	text-align: left;
+	padding: 0;
+	overflow: hidden;
+}
+#psttestimonialcmsblock .desc {
+	position: relative;
+	margin: 25px 0 0;
+	padding:0;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #222222;
+}
+#psttestimonialcmsblock .desc p{
+	margin-bottom: 0;
+}
+#psttestimonialcmsblock .product_inner_cms {
+	position: relative;
+	padding: 0 28px;
+}
+#psttestimonialcmsblock .item.cms_face:before {
+content: "";
+    background-image: url(../img/testimonial-quote.svg);
+    background-size: 100%;
+    height: 55px;
+    width: 62px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 15px;
+    bottom: auto;
+    right: 20px;
+    left: auto;
+}
+#psttestimonialcmsblock .test-author {
+    position: relative;
+	padding: 27px 0;
+}
+#psttestimonialcmsblock .owl-pagination {
+	margin: 15px 0;
+	display: block;
+	float: left;
+    width: 100%;
+	
+	transition-duration: 300ms;
+	-webkit-transition-duration:300ms;
+	-moz-transition-duration: 300ms;
+	-ms-transition-duration: 300ms;
+	-o-transition-duration:300ms;
+}
+
+#psttestimonialcmsblock:hover .owl-pagination {
+	opacity: 1;	
+	-khtml-opacity: 1;
+	-webkit-opacity: 1;
+	-moz-opacity:1;
+	transition-duration: 300ms;
+	-webkit-transition-duration:300ms;
+	-moz-transition-duration: 300ms;
+	-ms-transition-duration: 300ms;
+	-o-transition-duration:300ms;
+}
+
+@media (max-width: 991px){
+	#psttestimonialcmsblock {
+		margin-bottom: 60px;
+		padding: 70px 0;
+		margin-top: 20px;
+	}
+	ul#testimonial-carousel{
+	    margin: 0;
+	}
+	#psttestimonialcmsblock .testimonial-wrapper {
+		margin: 0 auto;
+		float: none;
+	}
+}
+@media (max-width: 767px){
+	#psttestimonialcmsblock{
+	    padding: 50px 0;
+	}
+	#psttestimonialcmsblock .testimonial-wrapper {
+		width: 100%;
+	}
+	#psttestimonialcmsblock .testmonial-image {
+		float: none;
+	}
+	#psttestimonialcmsblock .desc {
+		margin: 15px 0 0;
+	}
+	#psttestimonialcmsblock .product_inner_cms {
+		margin: 15px 0 0;
+		padding: 0;
+	}
+	#psttestimonialcmsblock .item.cms_face{
+		text-align: center;	
+	}
+	#psttestimonialcmsblock .item.cms_face:before{
+		display:none;
+	}
+	#psttestimonialcmsblock li.item {
+		padding: 50px 20px;
+	}
+}
+
+/* Home Testimonial block end */

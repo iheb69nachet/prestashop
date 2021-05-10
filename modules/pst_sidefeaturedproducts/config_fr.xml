@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>pst_sidefeaturedproducts</name>
+    <displayName><![CDATA[Sidebar Featured Product]]></displayName>
+    <version><![CDATA[1.0.7]]></version>
+    <description><![CDATA[Display the featured products in the sidebar of your store.]]></description>
+    <author><![CDATA[Thementic]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

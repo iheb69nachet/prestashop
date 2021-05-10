@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>stproductsearch</name>
+    <displayName><![CDATA[Advanced product search]]></displayName>
+    <version><![CDATA[2.0.0]]></version>
+    <description><![CDATA[Adds advanced product search field to your website.]]></description>
+    <author><![CDATA[Thementic]]></author>
+    <tab><![CDATA[search_filter]]></tab>
+    <is_configurable>0</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

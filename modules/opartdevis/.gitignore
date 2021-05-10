@@ -1,0 +1,5 @@
+config*.xml
+*.cache
+*.swp
+tags
+uploads/*

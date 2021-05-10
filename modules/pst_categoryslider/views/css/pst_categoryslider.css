@@ -1,0 +1,18 @@
+#pstcategorytabs {    margin: 0;    clear: both;     position: relative;}
+#pstcategorytabs .categoryimage .category_img{ margin:10px 0; max-width: 100%; }
+#pstcategorytabs .tab-content .tab-pane{
+	padding: 0px;
+    border: none;
+    background: none;
+}
+#pstcategorytabs .tab-content .products{     
+    float: left;
+    width: 100%;
+	position: relative;
+}
+
+@media (max-width: 991px){
+	#pstcategorytabs {
+		text-align: center;
+	}
+}

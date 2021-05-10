@@ -1,0 +1,32 @@
+/* Css for payment start */
+
+.payment-block .icon {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 18px 0 0;
+    font-size: 18px;
+    background: transparent;
+    border: none;
+}
+.payment-block .icon i.fa {
+    font-size: 25px;
+    margin: 0;
+}
+.payment-block ul {
+	margin: 0;
+}
+.payment-block .icon img {
+    max-width: 100%;
+}
+#pstpaymentcmsblock {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+@media (max-width: 1299px) {
+	.payment-block .icon {
+		margin: 0 12px 0 0;
+	}
+}
+

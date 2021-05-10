@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>clictopay</name>
+    <displayName><![CDATA[Clictopay]]></displayName>
+    <version><![CDATA[1.4.1]]></version>
+    <description>
+        <![CDATA[This module allows you to accept online payments based on the SPS Clictopay SMT, It&#039;s developed by Ala Eddine Khefifi. Email: alakhefifi@gmail.com]]></description>
+    <author><![CDATA[Ala Eddine Khefifi]]></author>
+    <tab><![CDATA[payments_gateways]]></tab>
+    <confirmUninstall><![CDATA[Are you sure you want to delete your details ?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>1</need_instance>
+    <limited_countries></limited_countries>
+</module>

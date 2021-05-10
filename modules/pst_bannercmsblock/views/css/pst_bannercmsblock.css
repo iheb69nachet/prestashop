@@ -1,0 +1,218 @@
+/* Css for banner cms start */
+ #cms_bannerblock {
+	margin: 0 0 100px;
+}
+#cms_bannerblock li.cmsbanner-item {
+    position: relative;
+}
+#cms_bannerblock li.cmsbanner-item .cmsbanner-img{
+	display:block;
+}
+#cms_bannerblock li .cmsbanner-item-inner {
+     position: relative;
+     overflow: hidden;
+     display: inline-block;
+     vertical-align: top;
+}
+#cms_bannerblock img {
+    max-width: 100%;
+}
+#cms_bannerblock li.cmsbanner-item .cmsbanner-img:before {
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+	left: 0;
+	top: 100%;
+	height: 100%;
+	width: 100%;
+		
+    background: -webkit-linear-gradient(top, rgba(128, 128, 128, 0) 0%, rgba(128, 128, 128, 0.4) 100%);
+    background: -moz-linear-gradient(top, rgba(128, 128, 128, 0) 0%, rgba(128, 128, 128, 0.4) 100%);
+    background: -ms-linear-gradient(top, rgba(128, 128, 128, 0) 0%, rgba(128, 128, 128, 0.4) 100%);
+    background: -o-linear-gradient(top, rgba(128, 128, 128, 0) 0%, rgba(128, 128, 128, 0.4) 100%);
+    background: linear-gradient(to bottom, rgba(128, 128, 128, 0) 0%, rgba(128, 128, 128, 0.4) 100%);
+	
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+#cms_bannerblock li.cmsbanner-item:hover .cmsbanner-img:before {
+    top: 0;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+ #cms_bannerblock li .cmsbanner-detail-wrapper {
+	position: absolute;
+    left: 30px;
+    right: auto;
+    top: auto;
+    bottom: 18%;
+    z-index: 1;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+#cms_bannerblock li:hover .cmsbanner-detail-wrapper {
+	transition: all 300ms ease;
+	-webkit-transition: all 300ms ease;
+	-moz-transition: all 300ms ease;
+	-ms-transition: all 300ms ease;
+	-o-transition: all 300ms ease;
+}
+#cms_bannerblock li .cmsbanner-label {
+	font-size: 11px;
+	font-weight: 700;
+	line-height: 21px;
+	color: #000000;
+	text-transform: uppercase;
+	background-color: #ffd200;
+	padding: 5px 5px 2px 3px;
+    position: relative;
+}
+
+#cms_bannerblock li .cmsbanner-label:before {
+    content: '';
+    position: absolute;
+    left: auto;
+    right: -10px;
+	top: 0;
+	bottom: auto;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 0;
+    border-color: #ffd200 transparent transparent transparent;
+}
+
+#cms_bannerblock li .cmsbanner-label:after {
+    content: '';
+    position: absolute;
+    left: auto;
+    right: -10px;
+	top: auto;
+	bottom: 0;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 0 10px;
+    border-color: transparent transparent transparent #ffd200;
+}
+
+ #cms_bannerblock li .cmsbanner-text1 {
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 400;
+	padding: 3px 16px;
+	color: #ffffff;
+	background: #222222;
+	text-transform: uppercase;
+	transition-duration: 300ms;
+	-webkit-transition-duration: 300ms;
+	-moz-transition-duration: 300ms;
+	-ms-transition-duration: 300ms;
+	-o-transition-duration: 300ms;
+}
+
+ #cms_bannerblock li span.cmsbanner-text2 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 32px;
+    display: block;
+    color: #222222;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    margin: 22px 0 55px;
+-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+ #cms_bannerblock li span.cmsbanner-text3 {
+ 	font-size: 14px;
+	font-weight: 400;
+	color: #222222;
+	text-transform: capitalize;
+	letter-spacing: 0;
+	transition-duration: 300ms;
+	-webkit-transition-duration: 300ms;
+	-moz-transition-duration: 300ms;
+	-ms-transition-duration: 300ms;
+	-o-transition-duration: 300ms;
+ }
+ #cms_bannerblock li:hover span.cmsbanner-text2{
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    -moz-text-shadow: 2px 2px 4px #000000;
+    -webkit-text-shadow: 2px 2px 4px #000000;
+	-webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+
+
+ @media (max-width: 1299px){
+	#cms_bannerblock li .cmsbanner-detail-wrapper {
+	    bottom: 12%;	
+	} 
+ }	
+
+ @media (max-width: 991px){
+	#cms_bannerblock li .cmsbanner-text1{
+		font-size: 11px;
+		font-weight: 400;
+		padding: 3px 12px;
+	}	
+	#cms_bannerblock li .cmsbanner-detail-wrapper{
+		left: 15px;
+		right: auto;
+	}
+	#cms_bannerblock li span.cmsbanner-text2 {
+		font-size: 18px;
+		line-height: 28px;
+		margin: 15px 0 25px;
+	}
+	#cms_bannerblock{
+		margin:0 0 70px;	
+	}
+}
+ @media (max-width: 767px) {
+     li.cmsbanner-item {
+         margin-bottom: 30px;
+    }
+	#cms_bannerblock {
+		margin: 0 0 50px;
+	}
+	#cms_bannerblock li .cmsbanner-detail-wrapper {
+		bottom: 20%;
+		left: 30px;
+		text-align: left;
+	}
+	#cms_bannerblock li.cmsbanner-item{
+		text-align:center;	
+	}
+}
+ @media (max-width: 479px) {
+	#cms_bannerblock li .cmsbanner-detail-wrapper {
+		bottom: 7%;
+		left: 15px;
+	}
+	#cms_bannerblock li span.cmsbanner-text2 {
+		font-size: 16px;
+		line-height: 24px;
+		margin: 12px 0 20px;
+	}
+
+}
+
+/* Css for banner cms end */
